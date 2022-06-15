@@ -45,7 +45,8 @@ if (nome == 'R'){
 }else{
     console.log ('Inválido')
 }
-//não entendi como fazer para um sobrenome tipo Rodrigues ou Ramos
+//não entendi como fazer para um sobrenome tipo Rodrigues ou Ramos.
+//pode mandar como ficaria?? 
 
 //5
 let lastName = 'Exxxxxxxxxxxxx'
@@ -55,5 +56,3 @@ if (lastName == 'xxxxxx' || lastName == 'Exxxxx'){
 }else{
     console.log ('Nome recusado, troque!')
 }
-
-
