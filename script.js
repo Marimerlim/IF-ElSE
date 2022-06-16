@@ -38,21 +38,26 @@ if (month == "Janeiro" || month == "Dezembro"){
 }
 
 //4
-let nome = 'L';
+const nome = 'Mariana';
 
-if (nome == 'R'){
-    console.log ('Válido')
+if (nome[0] === 'R'){
+    console.log ('Nome Válido')
 }else{
-    console.log ('Inválido')
+    console.log (`Nome inválido. Começa com ${nome[0]}`)
 }
-//não entendi como fazer para um sobrenome tipo Rodrigues ou Ramos.
-//pode mandar como ficaria?? 
+//console.log (nome.charAt(0)) === letra desejada a partir do numero
+//console.log (nome[0])
+
+// [] se chama arreio 
 
 //5
-let lastName = 'Exxxxxxxxxxxxx'
+//console.log (nome.length)
+const lastName = 'Merlim'
 
-if (lastName == 'xxxxxx' || lastName == 'Exxxxx'){
+if (lastName.length >= 6 || nome[0] === "E"){
     console.log ('Nome perfeito')
 }else{
     console.log ('Nome recusado, troque!')
 }
+
+//só consegui depois que Luan explicou na aula 15/06
